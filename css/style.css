@@ -24,27 +24,24 @@ body {
 }
 .logo-accent {
   color: #212121;
- 
 }
-.logo-link{
+.logo-link {
   color: var(--accent-color);
-
 }
 /* Новигация */
 ul {
-    list-style: none;
+  list-style: none;
 }
 .contacts {
   list-style: line-through;
   list-style: none;
   text-decoration: none;
- 
 }
 .site-nav a {
   text-decoration: none;
   color: var(--title-text-color);
   font-family: Roboto;
-  font-width: 500;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -60,11 +57,11 @@ ul {
   color: #757575;
   list-style: line-through;
   text-decoration: none;
-  Font family: Roboto;
- font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .contacts :hover,
 .contacts:focus {
@@ -72,9 +69,9 @@ letter-spacing: 0.02em;
 }
 .section-title {
   color: var(--title-text-color);
-font-weight: 700;
-font-size: 36px;
-line-height: 1.16;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
 }
 /* Главная */
 .hero {
@@ -86,22 +83,22 @@ line-height: 1.16;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.5;
-  text-aligh: center;
+  text-align: center;
   letter-spacing: 0.06em;
 }
 .button.primary {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   font-family: inherit;
-  font-width: 700;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  text-aligh: center;
+  text-align: center;
   letter-spacing: 0.06em;
 }
 .button.primary:hover,
-.button.primary:focus{
-    background-color: #188ce8;
+.button.primary:focus {
+  background-color: #188ce8;
 }
 /* Преимущества */
 .features-title {
@@ -112,23 +109,21 @@ line-height: 1.16;
   line-height: 1.14;
 }
 .features-text {
-font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
 }
 /* Команда */
 .team-list .title {
   color: var(--title-text-color);
-  font-width: 500;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-aligh:center;
 }
 .team-text {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.19;
-text-aligh:center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
 }
 /* Подвал */
 .footer {
@@ -140,69 +135,70 @@ text-aligh:center;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  
 }
-.footer:hover 
-.footer:focus {
-    color: var(--accent-color);
+.footer:hover .footer:focus {
+  color: var(--accent-color);
 }
 .footer .link {
   color: rgba(255, 255, 255, 0.6);
   list-style: line-through;
   text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
-.footer .link:hover 
-.footer .link:focus{
-    color: var(--accent-color);
+.footer .link:hover .footer .link:focus {
+  color: var(--accent-color);
 }
 .footer .logo-accent {
-  color: var(--accent-color);
-   list-style: line-through;
-   font-family: "Raleway", sans-serif;
-   font-style: normal;
-   font-weight: 700;
-   font-size: 26px;
-   line-height: 1.19;
-   letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+  list-style: line-through;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
-.footer .logo-link{
-    color: var(--primary-white-color);
-     font-family: "Raleway", sans-serif;
-     text-decoration: none;
-     font-style: normal;
-     font-weight: 700;
-     font-size: 26px;
-     line-height: 1.19;
-     letter-spacing: 0.03em;
+.footer .logo-link {
+  color: var(--accent-color);
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 address {
-    font-style: normal;
+  font-style: normal;
 }
 /* Портфолио */
 /* Кнопки */
 .button.secondary {
   color: var(--title-text-color);
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  text-aligh:center;
+  text-align: center;
 }
 .button.secondary:hover,
-.button.secondary:focus{
-    background-color: #188ce8;
+.button.secondary:focus {
+  background-color: #188ce8;
 }
 /* Карточки */
 .cart-title {
-color: var(--title-text-color);    
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing:0.06em';
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .cart-text {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.87;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
 }
